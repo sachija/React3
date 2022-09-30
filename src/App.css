@@ -1,0 +1,148 @@
+/* body{
+    background: #319231;
+   
+  }
+  label{
+    color: white;
+    display: block;
+    margin: 20px;
+    font-weight: bolder;
+  
+  }
+  input{
+    text-align: center;
+    height: 30px;
+  }
+  .BOX{
+  
+    display: "flex";
+    flex-wrap: "wrap";
+    margin: 30px;
+   flex-direction: row;
+   justify-content: space-evenly;
+   background-color:rgb(13, 99, 134);
+   border-radius: 18px;
+   border: 5px solid black;
+  }
+  
+  .box{
+    color: white;
+    margin: 10px;
+  }
+  
+  label{
+    display: inline-block;
+    text-align: right;
+    color: black;
+  }
+  
+  
+  
+  /* body{
+    background : rgb(176, 223, 241) 
+  }
+  #result{
+   margin-top: 22%;
+   width: 66%;
+   margin-left: 18%;
+   margin-right: 18%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   background-color:rgb(13, 99, 134);
+   border-radius: 18px;
+   border: 5px solid black;
+  }
+  .innerresult{
+    text-align: center;
+    width: 400px;
+    height: fit-content;
+    padding: 5px;
+    margin: 10px;
+    color: black;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: rgb(97, 189, 225);
+    font-size: 20px;
+  }
+  .form {
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  label{
+    display: inline-block;
+    text-align: right;
+  }
+  input{
+    position: relative;
+    left: 7rem;
+  } */
+   /* html {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}  */
+body {
+  background: linear-gradient(
+    100deg,
+    rgb(234, 172, 233) 4%,
+    rgba(99, 206, 99, 0.474) 57%,
+    skyblue  80%
+  );
+  min-height: 100vh;
+}
+
+.feed-form {
+  display: flex;
+  justify-content: center;
+}
+
+#box,
+.form {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  margin-bottom: 50px;
+}
+
+.head {
+  color:black;
+}
+input[type="text"] {
+  margin: 15px;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: ghostwhite;
+}
+label,
+input {
+  font-size: 18px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgb(84, 73, 235);
+  color: white;
+}
+.append-data {
+  width: 400px;
+  padding: 20px;
+  margin: 15px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgb(146, 241, 117);
+  font-size: 20px;
+}
+#text {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  border: 2px solid rgb(36, 32, 116);
+  width: 80vw;
+  background-color: rgb(233, 114, 179);
+}
